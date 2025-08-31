@@ -1,9 +1,46 @@
-#painel-sobre{
-	margin-top: 20px;
+*{
+    margin: 10;
+    padding: 0;
+}
+#menu{
+     text-align: center;
+	 font-size: large;
 }
 
-.titulo-clientes{
-	background-color: #0275D8;
-	padding: 10px;
-	
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	display: flex;
+	text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+	background: linear-gradient(80deg, #7476f1, #0a86a5);
+
+}
+
+span{
+	color: black;
+	text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#painel-sobre{
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.imagem{
+	width: 50%;
+  
 }
